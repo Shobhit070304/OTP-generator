@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Courier New', Courier, monospace;
+    
+}
+
+.outer-container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:url("168604-flame-fire-street_light-gas-heat-7680x4320.jpg");
+    background-size: cover;
+    background-position: center;
+    
+    
+    
+}
+
+.container{
+    width: 600px;
+    height: 300px;
+    background-color: #282A3A;
+    border-top: 3px solid blue;
+    border-bottom: 3px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;  
+    
+    
+    
+}
+
+#heading{
+    color: white;
+    width: 100%;
+    text-align: center;   
+}
+
+#btn{
+    height: 45px;
+    width: 120px;
+    color: white;
+    background-color: blue;
+    font-weight: 500;
+    font-size: 14px; 
+    border-radius: 6px;
+}
+#btn:hover{
+    opacity: 0.8;
+}
+
+#otpdisplay{
+    width: 100%;
+    height: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    color: white;
+    background-color: grey;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
